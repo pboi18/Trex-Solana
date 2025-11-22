@@ -1,0 +1,8 @@
+[programs.devnet]
+trex_wager = "6hSxQA2kW3meffPhw3jGLixfyCki3X3HGv9mPT92VLBY"
+
+
+
+[provider]
+cluster = "devnet"
+wallet = "/home/codespace/.config/solana/devnet.json"

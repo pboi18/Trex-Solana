@@ -1,0 +1,5 @@
+/workspaces/Trex-Solana/target/release/build/serde-23ce9b1244eed243/build_script_build-23ce9b1244eed243: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/build.rs
+
+/workspaces/Trex-Solana/target/release/build/serde-23ce9b1244eed243/build_script_build-23ce9b1244eed243.d: /home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/build.rs
+
+/home/codespace/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.228/build.rs:

@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "programs/trex_wager"
+]
+
+[profile.release]
+overflow-checks = true

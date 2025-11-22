@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>T-Rex Wager — Frontend</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>T‑Rex Wager (Demo)</h1>
+
+    <div id="wallet">
+      <button id="connectBtn">Connect Wallet (Phantom)</button>
+      <div id="pubkey">Not connected</div>
+    </div>
+
+    <section class="card">
+      <h2>Register Game</h2>
+      <label>Escrow pubkey (or leave blank to use wallet):</label>
+      <input id="escrow" placeholder="escrow pubkey" />
+      <label>Wager (lamports)</label>
+      <input id="wager" value="1000" />
+      <label>Nonce (optional)</label>
+      <input id="nonce" placeholder="nonce (number)" />
+      <button id="registerBtn">Register Game</button>
+      <pre id="registerResult"></pre>
+    </section>
+
+    <section class="card">
+      <h2>List Games</h2>
+      <button id="listBtn">List Games</button>
+      <pre id="gamesList"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Settle Game</h2>
+      <label>Game PDA</label>
+      <input id="gamePubkey" placeholder="game PDA" />
+      <label>Winner pubkey</label>
+      <input id="winner" placeholder="winner pubkey" />
+      <label>Winner Amount</label>
+      <input id="winnerAmt" value="500" />
+      <label>Admin Amount</label>
+      <input id="adminAmt" value="500" />
+      <button id="settleBtn">Settle</button>
+      <pre id="settleResult"></pre>
+    </section>
+
+    <div class="footer">Replace `PROGRAM_ID` inside `app.js` with your deployed program id.</div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
