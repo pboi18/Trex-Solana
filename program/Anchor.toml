@@ -1,6 +1,0 @@
-[programs.devnet]
-trex_wager = "DevnetExample1111111111111111111111111111111111"
-
-[provider]
-cluster = "devnet"
-wallet = "~/.config/solana/id.json"
